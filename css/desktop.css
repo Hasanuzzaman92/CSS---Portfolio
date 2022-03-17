@@ -1,0 +1,190 @@
+    /*For desktop*/
+    .col-1 {
+        width: 8.33%
+    }
+
+    .col-2 {
+        width: 16.66%
+    }
+
+    .col-3 {
+        width: 25%
+    }
+
+    .col-4 {
+        width: 33.33%
+    }
+
+    .col-5 {
+        width: 41.66%
+    }
+
+    .col-6 {
+        width: 50%
+    }
+
+    .col-7 {
+        width: 58.33%
+    }
+
+    .col-8 {
+        width: 66.66%
+    }
+
+    .col-9 {
+        width: 75%
+    }
+
+    .col-10 {
+        width: 83.33%
+    }
+
+    .col-11 {
+        width: 91.66%
+    }
+
+    .col-12 {
+        width: 100%
+    }
+
+
+
+    /*===============================
+            Navbar css
+=================================*/
+
+    .nav_logo {
+        text-align: left;
+    }
+
+    .nav_title h1 {
+        text-align: right;
+        padding-top: 20px;
+    }
+
+
+    .navbar .nav_menu {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+
+    .navbar .nav_menu a {
+        background-color: #0c6168;
+        padding: 20px 10px;
+    }
+
+
+
+    /*===============================
+        Profile section css
+=================================*/
+
+
+    .top_pro_img {
+        width: 120px;
+        right: 100px;
+        transition: width 2s transform 2s;
+    }
+
+    .top_pro_img:hover {
+        width: 150px;
+    }
+
+
+    .profile_desc h1 {
+        margin-top: 70px;
+    }
+
+
+    .bottom_pro_img {
+        width: 120px;
+        left: 100px;
+        bottom: 50px;
+        transition: width 2s, transform 2s;
+    }
+
+    .bottom_pro_img:hover {
+        width: 150px;
+    }
+
+
+
+    /*===============================
+        About me section css
+=================================*/
+
+
+    .about_me_img {
+        margin-top: 100px;
+    }
+
+
+    .about_me_img img {
+        height: 270px;
+        width: 250px;
+    }
+
+    .about_me_desc p {
+        text-align: left;
+    }
+
+
+
+    /*===============================
+      Professional Exp section css
+=================================*/
+
+    .professional_experience {
+        padding: 1% 5%;
+    }
+
+
+    /*===============================
+     Achivement_contact section css
+=================================*/
+
+
+    .achivement {
+        padding-right: 50px;
+    }
+
+
+    .contact button {
+        width: 150px;
+    }
+
+    .contact_social {
+        position: relative;
+    }
+
+
+    .media_buttons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 180px;
+    }
+
+
+
+    /*===============================
+         Footer section css
+=================================*/
+
+
+    .footer_menu {
+        margin-top: 15px;
+    }
+
+
+    .footer_menu a {
+        display: inline;
+        margin: 10px;
+    }
+
+    .footer_desc p {
+        border-top: none;
+        padding-top: 0;
+    }
